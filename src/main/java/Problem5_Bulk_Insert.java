@@ -37,9 +37,9 @@ public class Problem5_Bulk_Insert {
                                 ps.setString(1,str[0]);
                                 ps.setString(2,str[1]);
                                 ps.setString(3,str[2]);
-                                ps.setString(4,strp[3])
+                                ps.setString(4,strp[3]);
                                 ps.excuteUpdate();
-                                ps. close()
+                                ps. close();
                                 //Assuming that your line from file after split will folllow that sequence
 
                             }
